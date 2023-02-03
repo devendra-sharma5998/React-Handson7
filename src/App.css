@@ -1,0 +1,192 @@
+body{
+  height: 100vh;
+  background-image: linear-gradient(pink,skyblue,pink);
+}
+nav{
+  display: flex;
+  background-color: rgb(13, 13, 8);
+  color: white;
+  justify-content: space-around;
+  padding: 20px;
+}
+nav span{
+  color: rgb(248, 243, 243);
+  font-size: 2em;
+  background-color: blac;
+}
+.Add-New{
+  width: 200px;
+  height: 50px;
+  font-size: large;
+  font-weight: bolder;
+  border-radius: 20px;
+  margin: 20px;
+  background-color: cadetblue;
+}
+.student-page{
+  justify-content: space-between;
+  display: flex;
+  /* justify-content: center; */
+}
+.Add-New:hover{
+  /* transition: calc(.2); */
+  transform: translateY(-5px);
+  background-color: orange;
+}
+/* .Main{
+  height: 100vh;
+  font-size: xx-large;
+  text-align: center;
+  background-color: rgb(69, 95, 35);
+} */
+#Sttableheading{
+font-size: xx-large;
+font-weight: bolder;
+margin: 25px;
+text-align: center;
+}
+#btnforadd{
+  background-color: rgb(46, 243, 243);
+  float: right;
+  width: 250px;
+  height: 50px;
+  border-radius: 25px;
+margin-top: 40px;
+margin-bottom: 20px;
+margin-right: 10px;
+}
+.edittext{
+  color: rgb(0, 255, 68);
+}
+
+table{
+  width: 100%;
+  border: 2px solid black;
+  margin-top: 25px;
+  text-align: center;
+  background-color: aqua;
+
+}
+th{
+  font-size: larger;
+  color: rgb(1, 77, 1);
+  font-weight: bolder;
+  font-size: x-large;
+
+}
+td{
+  font-size: large;
+  background-color: #4B4E34;
+  color: cornsilk;
+}
+input{
+  margin: 80px;
+  margin-left: 300px;
+  height: 40px;
+  width: 220px;
+  background: transparent;
+  border: 1px solid gray;
+
+}
+.lable{
+  position: absolute;
+  
+  border-radius: 40px;
+  padding: 5px;
+  /* background: rgb(157, 214, 236); */
+  color: gray;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+  font-size: x-large;
+  font-weight: bolder;
+  color: black;
+}
+.forname{
+  position: absolute;
+  left: 370px;
+  top: 120px;
+  border-radius: 40px;
+  padding: 5px;
+  font-size: x-large;
+  font-weight: bolder;
+  color: black;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+}
+.forage{
+top: 120px;
+left: 980px;
+}
+.forcourse{
+  top: 370px;
+  left: 360px;
+  /* background: pink; */
+}
+.forbatch{
+  top: 370px;
+  left: 970px;
+  /* background: pink; */
+
+  }
+  
+  .edit-update{
+    width: 200px;
+    height: 50px;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-left: 40%;
+    color: green;
+    background-color: yellow;
+    border-radius: 25px;
+  }
+  .button{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 40%;
+    margin: auto;
+  }
+  .btnforUpdateEdit{
+    
+
+    right: 40px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background: transparent;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+  
+  }
+  .btnforcancelEdit{
+    
+    right: 280px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background: transparent;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+  }
+  .btnforUpdateEdit:hover{
+    transform: translateY(
+      -5px
+      
+    );
+    box-shadow: 1px 1px 5px black;
+    border: 1px solid rgb(128, 128, 128);
+    background-color: rgb(11, 236, 14);
+  }
+  .btnforcancelEdit:hover{
+    transform: translateY(
+      -5px
+      
+    );
+    box-shadow: 1px 1px 5px black;
+    border: 1px solid rgb(15, 0, 0);
+    background-color: rgb(249, 249, 12);
+  }
